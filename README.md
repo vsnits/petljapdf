@@ -17,7 +17,7 @@ $ git clone git://vsnits/petljapdf
 ```shell
  $ python3 loadlinks.py
  # You will be asked for petlja link
- # You can configure links.txt manually
+ # After load, U can configure links.txt manually
  $ python3 petljapdf.py
  # Note it is quite slow
 ```
