@@ -4,11 +4,11 @@ from sys import exit
     
 main = input("Petlja link  .. ")
     
-#try:
-#    call("wget -e robots=off -r -U Mozilla --no-parent --no-verbose " + main, shell=True)
-#except:
-#    print("\n Wget call failure. Were the link right? \n")
-#    exit(1)
+try:
+    call("wget -e robots=off -r -U Mozilla --no-parent --no-verbose " + main, shell=True)
+except:
+    print("\n Wget call failure. Were the link right? \n")
+    exit(1)
     
 dir = "/biblioteka/r/lekcije/"
 key = 'a href="' + dir
